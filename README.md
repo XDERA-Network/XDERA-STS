@@ -41,4 +41,3 @@ Join here to get your API key: https://discord.com/invite/YXhxpBcT9H
 3. Open the file.
 4. Try not to break anything or abuse the network.
 
-XDERA Network
