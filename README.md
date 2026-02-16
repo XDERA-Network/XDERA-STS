@@ -10,7 +10,7 @@ Example / prototype real-time communication interface by XDERA Network. If you a
 ## Links
 
 - **Website**: https://xdera.web.id
-- **Full Demo**: https://ai.xdera.web.id
+- **Full Potential Demo**: https://ai.xdera.web.id
 
 ## Usage
 
@@ -40,4 +40,5 @@ Join here to get your API key: https://discord.com/invite/YXhxpBcT9H
 2. Put the key from discord.
 3. Open the file.
 4. Try not to break anything or abuse the network.
+
 
