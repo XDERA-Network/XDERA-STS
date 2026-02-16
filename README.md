@@ -1,9 +1,9 @@
 # XDERA STS
 
-[![GitHub license](https://img.shields.io/github/license/Sotora/xdera-sts?style=flat-square)](https://github.com/Sotora/xdera-sts/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/Sotora/xdera-sts?style=flat-square)](https://github.com/Sotora/xdera-sts/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/Sotora/xdera-sts?style=flat-square)](https://github.com/Sotora/xdera-sts/issues)
-[![GitHub forks](https://img.shields.io/github/forks/Sotora/xdera-sts?style=flat-square)](https://github.com/Sotora/xdera-sts/network)
+[![GitHub license](https://img.shields.io/github/license/XDERA-Network/XDERA-STS?style=flat-square)](https://github.com/XDERA-Network/XDERA-STS/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/XDERA-Network/XDERA-STS?style=flat-square)](https://github.com/XDERA-Network/XDERA-STS/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/XDERA-Network/XDERA-STS?style=flat-square)](https://github.com/XDERA-Network/XDERA-STS/issues)
+[![GitHub forks](https://img.shields.io/github/forks/XDERA-Network/XDERA-STS?style=flat-square)](https://github.com/XDERA-Network/XDERA-STS/network)
 
 Example / prototype real-time communication interface by XDERA Network. If you are looking for something complex, look somewhere else. This project exists so people can connect to XDERA STS AI easily and for free. Unlimited usage is provided, so try not to abuse it.
 
