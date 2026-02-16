@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XDERA - STS API | Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>XDERA - STS API (Demo)</h1>
+    </header>
+
+    <main id="chat-log">
+        <div class="message ai">
+            Hello! I am ready to chat.
+            <span class="timestamp">Just now</span>
+        </div>
+    </main>
+
+    <footer>
+        <div class="input-container">
+            <textarea id="message-input" placeholder="Type a message..." rows="1"></textarea>
+            <button id="send-btn" aria-label="Send">
+                <svg id="wave-icon" class="icon active" xmlns="http://www.w3.org/2000/svg" height="24"
+                    viewBox="0 -960 960 960" width="24" fill="currentColor">
+                    <path
+                        d="M240-520h60v-80h-60v80Zm100 80h60v-240h-60v240Zm110 80h60v-400h-60v400Zm110-80h60v-240h-60v240Zm100-80h60v-80h-60v80ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z" />
+                </svg>
+                <svg id="arrow-icon" class="icon" xmlns="http://www.w3.org/2000/svg" height="24"
+                    viewBox="0 -960 960 960" width="24" fill="currentColor">
+                    <path d="M440-160v-487L216-424l-56-56 320-320 320 320-56 56-224-223v487h-80Z" />
+                </svg>
+            </button>
+        </div>
+    </footer>
+
+    <div id="call-loading" class="call-loading">
+        <div class="loading-content">
+            <img src="media/loading-cat.png" alt="Loading" class="loading-cat" id="loading-cat">
+            <p class="loading-text">Connecting to XDERA Network...</p>
+        </div>
+    </div>
+
+    <div id="call-popup" class="call-popup">
+        <div class="call-content">
+            <h2 class="call-title">Voice Mode</h2>
+            <div id="audio-visualizer" class="audio-visualizer">
+                <div class="visualizer-bar"></div>
+                <div class="visualizer-bar"></div>
+                <div class="visualizer-bar"></div>
+                <div class="visualizer-bar"></div>
+                <div class="visualizer-bar"></div>
+            </div>
+            <div class="call-actions">
+                <button id="mute-btn" class="action-btn mute-btn" aria-label="Mute">
+                    <svg id="unmute-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                        <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                        <line x1="12" y1="19" x2="12" y2="23"></line>
+                        <line x1="8" y1="23" x2="16" y2="23"></line>
+                    </svg>
+                    <svg id="mute-icon" class="hidden" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="1" y1="1" x2="23" y2="23"></line>
+                        <path d="M9 9v3a3 3 0 0 0 5.12 2.12M15 9.34V4a3 3 0 0 0-5.94-.6"></path>
+                        <path d="M17 16.95A7 7 0 0 1 5 12v-2m14 0v2a7 7 0 0 1-.11 1.23"></path>
+                        <line x1="12" y1="19" x2="12" y2="23"></line>
+                        <line x1="8" y1="23" x2="16" y2="23"></line>
+                    </svg>
+                </button>
+                <button id="close-call-btn" class="action-btn close-btn" aria-label="End Call">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/client.js" type="module"></script>
+</body>
+
+</html>
